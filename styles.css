@@ -1,6 +1,7 @@
 body {
     margin: 20px;
-    width: fit-content
+    width: fit-content;
+    height :auto;
 }
 
 .avatar {
@@ -16,8 +17,9 @@ body {
     display: flex;
     align-items: center;
     padding: 20px;
-    background: grey;
-    border-bottom: 5px solid red;
+    background: rgb(237, 167, 234);
+    border-bottom: 5px solid rgb(73, 60, 60);
+    height: fit-content;
 }
 .info
 {
@@ -27,6 +29,7 @@ body {
 }
 .inf
 {
+    margin: 2px;
     flex: 1;
 }
 /*
